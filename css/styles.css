@@ -3,6 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #EEE;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -56,7 +57,6 @@ table {
 }
 
 #wrapper {
-	border: 1px solid gray;
 	margin: auto;
   	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
@@ -67,6 +67,7 @@ table {
 	width: 0;
 	float: left;
 	box-sizing: border-box;
+	background-color: white;
 }
 
 .fill {
@@ -77,4 +78,9 @@ table {
 	position: absolute;
 	padding: 0;
 	margin: 10px 0 0 0;
+}
+
+header {
+	margin-top:10px;
+	display: none;
 }
